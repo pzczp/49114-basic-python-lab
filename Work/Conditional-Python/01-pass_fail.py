@@ -1,1 +1,4 @@
-_ = print("Pass") if int(input("Finals scores: ")) >= 50 else print("Fail")
+if int(input("Finals scores: ")) >= 50:
+   print("Pass")  
+else:
+    print("Fail")
